@@ -6,7 +6,10 @@
 }
 
 body {
-    background: url("https://images.unsplash.com/photo-1565958011705-44e211f7de60?auto=format&fit=crop&w=1600&q=80") no-repeat center center fixed;
+
+    background: 
+        linear-gradient(rgba(255, 180, 70, 0.6), rgba(200, 120, 30, 0.6)),
+        url("https://images.unsplash.com/photo-1565958011705-44e211f7de60?auto=format&fit=crop&w=1600&q=80") no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -18,7 +21,7 @@ body {
 
 
 form {
-    background-color: rgba(255, 243, 224, 0.95); /* color crema cálido */
+    background-color: rgba(255, 243, 224, 0.95); /* crema cálido */
     padding: 30px 40px;
     border-radius: 15px;
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
@@ -36,7 +39,6 @@ h2 {
     position: relative;
     padding-left: 35px;
 }
-
 
 h2::before {
     content: "";
@@ -114,7 +116,6 @@ select:focus {
     border-color: #f39c12;
     box-shadow: 0 0 5px #f39c12;
 }
-
 
 hr {
     border: none;
