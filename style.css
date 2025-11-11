@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    background: url("https://images.unsplash.com/photo-1565958011705-44e211f7de60?auto=format&fit=crop&w=1600&q=80") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 40px 0;
+    color: #333;
+}
+
+
+form {
+    background-color: rgba(255, 243, 224, 0.95); /* color crema cálido */
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 500px;
+    backdrop-filter: blur(3px);
+}
+
+h2 {
+    color: #c0392b;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-bottom: 2px solid #f39c12;
+    padding-bottom: 5px;
+    position: relative;
+    padding-left: 35px;
+}
+
+
+h2::before {
+    content: "";
+    background: url("https://cdn-icons-png.flaticon.com/512/3075/3075977.png") no-repeat center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+label {
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #2c3e50;
+}
+
+input[type="number"],
+select {
+    padding: 6px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    background-color: #fffaf0;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    transform: scale(1.2);
+    margin-left: 10px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #27ae60;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #2ecc71;
+    transform: scale(1.05);
+}
+
+#total {
+    margin-top: 10px;
+    background-color: #fef9e7;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid #f39c12;
+    border-radius: 5px;
+    color: #c0392b;
+}
+
+select {
+    cursor: pointer;
+    background-color: #fffaf0;
+}
+
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #f39c12;
+    box-shadow: 0 0 5px #f39c12;
+}
+
+
+hr {
+    border: none;
+    height: 2px;
+    background: #f39c12;
+    margin: 15px 0;
+}
